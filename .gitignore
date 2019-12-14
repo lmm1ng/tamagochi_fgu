@@ -1,0 +1,7 @@
+/node_modules
+/build
+/.idea
+/storybook-static
+/console.txt
+.DS_Store
+yarn-error.log*

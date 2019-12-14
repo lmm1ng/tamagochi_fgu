@@ -1,0 +1,38 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true,
+    "jest": true
+  },
+  "extends": ["airbnb", "prettier", "prettier/react"],
+  "globals": {
+    "Atomics": "readonly",
+    "SharedArrayBuffer": "readonly"
+  },
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "plugins": ["react"],
+  "rules": {
+    "import/order": ["off"],
+    "linebreak-style": ["off"],
+    "quotes": ["error", "single"],
+    "semi": ["error", "always"],
+    "react/state-in-constructor": ["warn", "never"],
+    "react/destructuring-assignment": ["off"],
+    "no-console": ["warn"],
+    "comma-dangle": ["off"],
+    "arrow-parens": ["error", "as-needed"],
+    "import/no-extraneous-dependencies": [
+      "error",
+      {
+        "devDependencies": ["src/**/*.story.jsx", "src/**/story.jsx"]
+      }
+    ]
+  }
+}

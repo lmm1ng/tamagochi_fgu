@@ -1,0 +1,21 @@
+.hero {
+  width: 243px;
+  height: 325px;
+  margin-top: 50px;
+}
+
+#hero {
+  display: flex;
+  flex-direction: column;
+  grid-area: content;
+}
+#hero_section {
+  display: flex;
+  margin: 0 auto;
+}
+#actionsButton {
+  width: 400px;
+  margin: 30px auto;
+  display: flex;
+  justify-content: space-around;
+}

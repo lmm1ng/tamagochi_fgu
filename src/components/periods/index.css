@@ -1,0 +1,11 @@
+#periods_bar {
+  grid-area: periods;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 50%;
+}
+.period_button {
+  margin: 10px !important;
+  max-width: 150px;
+}

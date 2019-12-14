@@ -1,0 +1,12 @@
+#root {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 3fr 1fr;
+  grid-template-areas:
+    'periods content .'
+    '. progress .';
+}
+#first_section {
+  display: flex;
+  justify-content: center;
+}
